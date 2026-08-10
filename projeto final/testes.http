@@ -1,0 +1,35 @@
+### Listar Autores
+GET http://127.0.0.1:5000/autores
+
+###
+
+### Criar Autor
+POST http://127.0.0.1:5000/autores
+Content-Type: application/json
+
+{
+  "nome": "Machado de Assis",
+  "nacionalidade": "Brasileira"
+}
+
+###
+
+### Criar Livro
+POST http://127.0.0.1:5000/livros
+Content-Type: application/json
+
+{
+  "titulo": "Dom Casmurro",
+  "ano_publicacao": 1899,
+  "autor_id": 1
+}
+
+###
+
+### Listar Livros com Nome do Autor (JOIN)
+GET http://127.0.0.1:5000/livros/detalhes
+
+###
+
+### Buscar com Filtro
+GET http://127.0.0.1:5000/livros/busca?titulo=Dom
