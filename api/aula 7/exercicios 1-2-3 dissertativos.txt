@@ -1,0 +1,14 @@
+1. Com as suas palavras, explique o que é uma API usando uma analogia diferente da do garçom.
+a API é como um correio, onde quem envia a carta (usuario) almeja uma resposta (retorno), e quem recebe a carta (sistema), retorna com uma resposta.
+
+2. Para cada situação abaixo, indique qual verbo HTTP seria usado:
+a - GET
+b - POST
+c - DELETE
+d - PUT
+
+3. O que significa a sigla CRUD? Escreva cada letra e o verbo HTTP correspondente.
+C - Create (Criar): Verbo POST
+R - Read (Ler): " GET
+U - Update (Atualizar): " PUT
+D - Delete (Apagar) -> " DELETE
