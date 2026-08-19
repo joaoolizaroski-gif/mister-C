@@ -11,12 +11,11 @@ produtos = [
 
 @app.route("/produtos/<int:id>")
 def buscar_produto(id):
-    # Percorre a lista procurando o produto com o id correspondente
+
     for produto in produtos:
         if produto["id"] == id:
             return jsonify(produto)
             
-    # Se terminar o for e não encontrar, retorna erro 404
     return jsonify({"erro": "Produto nao encontrado"}), 404
 
 if __name__ == "__main__":

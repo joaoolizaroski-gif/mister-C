@@ -13,7 +13,6 @@ produtos = [
 def produtos_disponiveis():
     lista_disponiveis = []
     
-    # Filtra os produtos disponíveis
     for produto in produtos:
         if produto["disponivel"] == True:
             lista_disponiveis.append(produto)

@@ -6,7 +6,7 @@ app = Flask(__name__)
 def produto():
     dados_produto = {
         "id": 1,
-        "nome": "Caderno Inteligente",
+        "nome": "Caderno Esperto",
         "preco": 45.90,
         "disponivel": True
     }
