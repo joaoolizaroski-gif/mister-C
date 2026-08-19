@@ -1,0 +1,23 @@
+### 1. Criar uma nova tarefa (POST)
+POST http://127.0.0.1:5000/tarefas
+Content-Type: application/json
+
+{
+    "titulo": "Estudar API REST",
+    "feita": 0
+}
+
+### 2. Listar todas as tarefas (GET)
+GET http://127.0.0.1:5000/tarefas
+
+### 3. Atualizar a tarefa criada (PUT - assumindo que o ID gerado foi 1)
+PUT http://127.0.0.1:5000/tarefas/1
+Content-Type: application/json
+
+{
+    "titulo": "Estudar API REST e SQLite",
+    "feita": 1
+}
+
+### 4. Apagar a tarefa (DELETE - assumindo ID 1)
+DELETE http://127.0.0.1:5000/tarefas/1
