@@ -1,0 +1,19 @@
+### Listar todos os produtos (GET)
+GET http://127.0.0.1:5000/produtos
+
+### Criar um novo produto (POST)
+POST http://127.0.0.1:5000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Estojo",
+    "preco": 25.90
+}
+
+### Tentar criar produto sem preço (Erro 400)
+POST http://127.0.0.1:5000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Borracha"
+}
