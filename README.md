@@ -1,2 +1,2 @@
-# mister-C
-aulas 1 a 6
+# aulas
+aluno: joao vitor olizaroski
